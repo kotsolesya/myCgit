@@ -5,13 +5,17 @@
             char *name;
             char *city;
             int zip;
-            };
-            
+            }A,B;
+   
+   
             
 int main(void)
 {
 
-    struct adr A,B;
+int N;
+scanf("%d",&N);
+
+struct adr *C = new struct adr [N];
 
       A.name="Jack";
       A.city="Oslo";
